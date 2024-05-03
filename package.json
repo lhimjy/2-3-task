@@ -17,10 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "App.js",
-    "homepage": "https://lhimjy.github.io/2-3-task/",
-    "predeploy": "npm run bulid",
-    "deploy": "gh-pages -d buld"
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +39,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "homepage": "https://lhimjy.github.io/2-3-task/",
+  "predeploy":"npm run build",
+  "deploy":"gh -pages -d build"
 }
