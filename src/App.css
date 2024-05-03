@@ -1,0 +1,36 @@
+.main_head{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: sticky;
+  top : 0px
+}
+.main__page{
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  padding : calc(50vh - 15px);
+  background: linear-gradient(rgb(255, 228, 196) 60%,rgba(170, 255, 255, 0.562));
+}
+.main_body
+{
+  
+}
+.main_title{
+  display: flex;
+  padding: 20px 62.5vw 20px 2.5vw;
+  /*background-color:rgba(255, 75, 75, 0.199);*/
+}
+.Menu{
+  display: flex;
+  padding : 20px 5vw 20px 5vw;
+  /*background-color: rgba(186, 113, 255, 0.26);*/
+}
+.main_head > *:last-child{
+  padding : 20px 2.5vw 20px 5vw;
+}
+.cu{
+  cursor: pointer;
+}

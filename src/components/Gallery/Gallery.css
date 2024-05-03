@@ -1,0 +1,62 @@
+/*html{
+  background-color: beige;
+}*/
+/*body{
+  margin : 0
+}*/
+#container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#head{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+  background:linear-gradient(rgba(170, 255, 255, 0.562),rgba(255, 255, 127, 0.316))
+}
+.title{
+  font-weight: 200;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: calc(3vh);
+  color: rgba(177, 128, 63, 0.792);
+}
+#add{
+  padding:0px 0px 0px 12px;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 100;
+  font-size: calc(2vh);
+}
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(rgba(255, 255, 127, 0.316),rgba(179, 97, 185, 0.265));
+}
+.picture{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  box-shadow: 4px 4px 2px black;
+  border-radius: 12px;
+  margin: 3vh 5vw 3vh 5vw;
+  overflow: hidden;
+  background-color: rgba(183, 56, 56, 0.1);
+}
+/*hr{
+  width: calc(100% - 1.334px);
+  margin: 0.5vh 0 0.5vh 0;
+  padding : 0;
+}*/
+.last{
+  font-style: oblique;
+}
+/*max-width 주기
+년도 날짜 중앙에 맞추기
+*/
