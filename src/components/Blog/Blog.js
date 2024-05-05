@@ -43,7 +43,7 @@ function Blog(props) {
           }
         </div>
         <button className="f_container" onClick={() => {
-            if (inp != '') {
+            if (inp !== '') {
               const copy글제목 = [...글제목];
               const copy따봉 = [...따봉];
               const copybad = [...bad];
@@ -60,7 +60,7 @@ function Blog(props) {
           </button>
           <div>
           { 
-            modal == true ? <Modal 모달={모달}></Modal> : null
+            modal === true ? <Modal 모달={모달}></Modal> : null
           }
         </div>
       </div>

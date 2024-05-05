@@ -17,7 +17,7 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="/images/1.jpg"
+                src="./images/1.jpg"
                 title="하품중"
                 width="170"
               />

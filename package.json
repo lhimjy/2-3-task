@@ -42,5 +42,5 @@
   },
   "homepage": "https://lhimjy.github.io/2-3-task/",
   "predeploy":"npm run build",
-  "deploy":"gh -pages -d build"
+  "deploy":"gh-pages -d build"
 }
