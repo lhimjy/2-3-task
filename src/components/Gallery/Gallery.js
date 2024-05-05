@@ -1,4 +1,12 @@
 import './Gallery.css';
+import img1 from './1.jpg'
+import img2 from './2.jpg'
+import img3 from './3.jpg'
+import img4 from './4.jpg'
+import img5 from './5.jpg'
+import img6 from './6.jpg'
+import img7 from './7.jpg'
+import img8 from './8.jpg'
 
 function Gallery(){
   return (
@@ -17,9 +25,9 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="./images/1.jpg"
+                src={img1}
                 title="하품중"
-                width="170"
+                width="190"
               />
               <p>
                 2021.02.02
@@ -30,9 +38,9 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="/images/2.jpg"
+                src={img2}
                 title="똘망똘망"
-                width="170"
+                width="190"
               />
               <p>
                 2021.02.03
@@ -43,9 +51,9 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="/images/3.jpg"
+                src={img3}
                 title="자는중"
-                width="170"
+                width="190"
               />
               <p>
                 2021.04.07
@@ -56,9 +64,9 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="/images/4.jpg"
+                src={img4}
                 title="화들짝!"
-                width="170"
+                width="190"
               />
               <p>
                 2021.07.15
@@ -69,9 +77,9 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="/images/5.jpg"
+                src={img5}
                 title="발바닥"
-                width="170"
+                width="190"
               />
               <p>
                 2021.08.05
@@ -82,9 +90,9 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="/images/6.jpg"
+                src={img6}
                 title="콧바람"
-                width="170"
+                width="190"
               />
               <p>
                 2021.08.11
@@ -95,9 +103,9 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                src="/images/8.jpg"
+                src={img8}
                 title="시무룩"
-                width="170"
+                width="190"
               />
               <p>
                 2021.11.04
@@ -108,10 +116,10 @@ function Gallery(){
             <div className="picture">
               <img
                 alt="치와와 사진"
-                height="226.33"
-                src="/images/7.jpg"
+                height="253.33"
+                src={img7}
                 title="joke!"
-                width="170"
+                width="190"
               />
               <p className="last">
                 2024.02.15
