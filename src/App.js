@@ -6,16 +6,16 @@ import Gallery from './components/Gallery/Gallery';
 
 function App(){
     return (
-      <div>
+      <div className='main_container'>
         <div className='main_head'>
             <div className='main_title'>
-              <Link to="main_page" smooth={true} duration={500} className='cu'>React Blog</Link>
+              <Link to="main_page"  smooth={true} duration={600} className='cu'>React Blog</Link>
             </div>
             <div className='Menu'>
-              <Link to="gallery" smooth={true} duration={500} className='cu'>Gallery</Link>
+              <Link to="gallery" smooth={true} duration={800} className='cu'>Gallery</Link>
             </div>
             <div className='Menu'>
-              <Link to="blog" smooth={true} duration={500} className='cu'>Blog</Link>
+              <Link to="blog" smooth={true} duration={750} className='cu'>Blog</Link>
             </div>
         </div>
         <Element name='main_page'>
@@ -24,12 +24,12 @@ function App(){
           </div>
         </Element>
         <div className='main_body'>
-          <Element name='gallery'>
-            <Gallery></Gallery>
-          </Element>
-          <Element name='blog'>
-            <Blog></Blog>
-          </Element>
+            <Element name='gallery'>
+              <Gallery></Gallery>
+            </Element>
+            <Element name='blog'> 
+              <Blog></Blog>
+            </Element>
         </div>
       </div>
     );

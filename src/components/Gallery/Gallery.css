@@ -7,6 +7,7 @@
 #container{
   display: flex;
   flex-direction: column;
+  max-width: 100vw;
   height: 100vh;
 }
 #head{
@@ -15,7 +16,7 @@
   justify-content: center;
   align-items: center;
   padding: 3vh;
-  background:linear-gradient(rgba(170, 255, 255, 0.562),rgba(255, 255, 127, 0.316))
+  background:linear-gradient(rgba(170, 255, 255, 0.350),rgba(255, 255, 127, 0.270))
 }
 .title{
   font-weight: 200;
@@ -36,7 +37,7 @@
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(rgba(255, 255, 127, 0.316),rgba(179, 97, 185, 0.265));
+  background:linear-gradient(rgba(255, 255, 127, 0.270),rgba(179, 97, 185, 0.250));
 }
 .picture{
   display: flex;

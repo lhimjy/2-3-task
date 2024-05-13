@@ -37,38 +37,43 @@ function Blog(props) {
       </div>
       
       <div className='f_container'>
-        <div>
-          {
-            <input className='inputbox' onChange={(e) => {inp_chg(e.target.value);}}></input>
-          }
-        </div>
-        <button className="f_container" onClick={() => {
-            if (inp !== '') {
-              const copy글제목 = [...글제목];
-              const copy따봉 = [...따봉];
-              const copybad = [...bad];
-              copy글제목.unshift(inp);
-              copy따봉.unshift(0);
-              copybad.unshift(0);
-              글제목변경(copy글제목);
-              따봉변경(copy따봉);
-              bad_sign(copybad);
-            } else {
-              alert("제목을 입력해주세요");
-            }
-          }}>저장
-          </button>
+          <div className='input'>
+            <span className='input_box'>
+              {
+                <input placeholder='제목을 입력하세요' onChange={(e) => {inp_chg(e.target.value);}}></input>
+              }
+            </span>
+            <span className='button'> 
+              <button onClick={() => {
+                  if (inp !== '') {
+                    const copy글제목 = [...글제목];
+                    const copy따봉 = [...따봉];
+                    const copybad = [...bad];
+                    copy글제목.unshift(inp);
+                    copy따봉.unshift(0);
+                    copybad.unshift(0);
+                    글제목변경(copy글제목);
+                    따봉변경(copy따봉);
+                    bad_sign(copybad);
+                  } else {
+                    alert("제목을 입력해주세요");
+                  }
+                }}>저장
+              </button>
+            </span>  
+          </div>
           <div>
           { 
             modal === true ? <Modal 모달={모달}></Modal> : null
           }
-        </div>
+          </div>
+        <footer id="foot">
+          <div className='tel'>
+              t  e  l  .  0  1  0  -  9  0  8  9  -  0  3  6  9
+          </div>
+        </footer>
       </div>
-      <div id="foot">
-            <div className='tel'>
-              tel. 010-9089-0369
-            </div>
-        </div>
+      
     </div>
   );
 }

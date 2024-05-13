@@ -127,7 +127,7 @@ function Gallery(){
                 joke!
               </p>
             </div>
-          </div>
+            </div>
         </div>
       </body>
     </div>
